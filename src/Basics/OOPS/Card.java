@@ -9,7 +9,6 @@ public abstract class Card implements PaymentMethod{
     public Card(String Username, String CardNo){
         this.UserName=Username;
         this.CardNo=CardNo;
-
     }
     public String getCardNo() {
         return CardNo;
