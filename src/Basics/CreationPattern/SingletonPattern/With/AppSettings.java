@@ -1,4 +1,4 @@
-package Basics.BehaviouralPattern.SingletonPattern.With;
+package Basics.CreationPattern.SingletonPattern.With;
 
 public class AppSettings {
     private String apiKey;

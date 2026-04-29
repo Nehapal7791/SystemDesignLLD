@@ -1,6 +1,4 @@
-package Basics.BehaviouralPattern.SingletonPattern.Without;
-
-import Basics.BehaviouralPattern.SingletonPattern.Without.AppSettings;
+package Basics.CreationPattern.SingletonPattern.Without;
 
 public class Main {
     static void main() {
