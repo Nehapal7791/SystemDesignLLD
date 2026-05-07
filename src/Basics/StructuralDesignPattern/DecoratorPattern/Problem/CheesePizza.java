@@ -1,4 +1,4 @@
-package Basics.StructuralDesignPattern.AdapterPattern.DecoratorPattern.Problem;
+package Basics.StructuralDesignPattern.DecoratorPattern.Problem;
 
 public class CheesePizza extends BasicPizza {
     @Override

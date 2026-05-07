@@ -1,4 +1,4 @@
-package Basics.StructuralDesignPattern.AdapterPattern.DecoratorPattern.Solution;
+package Basics.StructuralDesignPattern.DecoratorPattern.Solution;
 
 public class OliveDecorator extends PizzaDecorator{
     public OliveDecorator(Pizza pizza) {
