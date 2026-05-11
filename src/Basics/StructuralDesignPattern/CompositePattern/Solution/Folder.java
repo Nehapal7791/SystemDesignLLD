@@ -10,14 +10,14 @@ public class Folder implements FileSystemComponent{
     Folder(String name){
         this.name=name;
     }
-    private List<Basics.StructuralDesignPattern.CompositePattern.Problem.File> files= new ArrayList<>();
-    public void addFile(File file){
-        files.add(file);
+    private List<FileSystemComponent> components= new ArrayList<>();
+    public void addComponents(FileSystemComponent component){
+        components.add(component);
     }
     @Override
     public void showDetails() {
         System.out.println("Folder: " + name);
-        for(File file:files){
+        for(FileSystemComponent file:components){
             file.showDetails();
         }
     }
